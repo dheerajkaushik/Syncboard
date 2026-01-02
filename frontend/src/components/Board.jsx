@@ -19,7 +19,7 @@ const Board = () => {
     const userId = useRef(uuidv4());
 
     useEffect(() => {
-        const socket = new SockJS('http://localhost:8080/ws');
+        const socket = new SockJS('https://syncboard-g6oz.onrender.com/ws');
         const client = Stomp.over(socket);
         client.debug = null;
         stompClient.current = client;
