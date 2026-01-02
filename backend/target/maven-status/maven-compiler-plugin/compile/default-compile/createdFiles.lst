@@ -1,0 +1,4 @@
+com\syncboard\SyncBoardApplication.class
+com\syncboard\config\WebSocketConfig.class
+com\syncboard\controller\BoardController.class
+com\syncboard\model\DrawAction.class
