@@ -1,10 +1,9 @@
 # SyncBoard 🎨
+live at: https://syncboard-1.onrender.com/
 
 **SyncBoard** is a real-time collaborative whiteboard that allows distributed teams to sketch ideas on a shared infinite canvas. It demonstrates advanced frontend state management and low-latency communication.
 
-![Demo Screenshot](https://dummyimage.com/800x500/000/fff&text=SyncBoard+Demo+Screenshot)
-*(Tip: Take a screenshot of two side-by-side windows drawing together and put it here!)*
-
+![img_2.png](img_2.png)
 ## ✨ Key Features
 * **Live Multi-User Drawing:** See strokes from other users appear instantly.
 * **Conflict-Free State:** Uses an event-driven model to merge drawing paths from multiple sources without locking the UI.
